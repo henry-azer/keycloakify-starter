@@ -20,8 +20,8 @@ createRoot(document.getElementById("root")!).render(
                 }
 
                 throw new Error(
-                  "This app is a Keycloak theme" +
-                  "It isn't meant to be deployed outside of Keycloak"
+                  "This app is a Keycloak theme, " +
+                  "It isn't meant to be deployed outside of Keycloak."
                 );
 
             })()}
